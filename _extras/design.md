@@ -199,7 +199,34 @@ I know...
 
 ### [Coffee]({{page.root}}/05-coffee/): 15 min (10:20)
 
-### [Libraries]({{page.root}}/06-libraries/) (10:35)
+### [Lists]({{page.root}}/06-lists/) (10:35)
+
+*   Teaching: 10 min
+    *   Explain why programs need collections of values.
+    *   Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls.
+*   Challenges: 10 min
+    *   Fill in the blanks so that the program produces the output shown.
+    *   How large are the following slices?
+    *   What do negative index expressions print?
+    *   What does a "stride" in a slice do?
+    *   How do slices treat out-of-range bounds?
+    *   What are the differences between sorting these two ways?
+    *   What is the difference between `new = old` and `new = old[:]`?
+
+### [Loops]({{page.root}}/07-for-loops/) (10:55)
+
+*   Teaching: 10 min
+    *   Explain what for loops are normally used for.
+    *   Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration.
+    *   Write for loops that use the Accumulator pattern to aggregate values.
+*   Challenges: 15 min
+    *   Is an indentation error a syntax error or a runtime error?
+    *   Trace which lines of this program are executed in what order.
+    *   Fill in the blanks in this program so that it reverses a string.
+    *   Fill in the blanks in this series of examples to get practice accumulating values.
+    *   Reorder and indent these lins to calculate the cumulative sum of the list values.
+
+### [Libraries]({{page.root}}/08-libraries/) (11:20)
 
 *   Teaching: 10 min
     *   Explain what software libraries are and why programmers create and use them.
@@ -211,7 +238,7 @@ I know...
     *   If `help(math)` produces an error, what have you forgotten to do?
     *   Fill in the blanks in code below so that the import statement and program run.
 
-### [Reading Tabular Data]({{page.root}}/07-reading-tabular/) (10:55)
+### [Reading Tabular Data]({{page.root}}/09-reading-tabular/) (11:40)
 
 *   Teaching: 10 min
     *   Import the Pandas library.
@@ -223,7 +250,9 @@ I know...
     *   What string(s) should you pass to `read_csv` to read files from other directories?
     *   How can you *write* CSV data?
 
-### [DataFrames]({{page.root}}/08-data-frames/) (11:15)
+### [Lunch]({{page.root}}/10-lunch/) (12:00): 45 min
+
+### [DataFrames]({{page.root}}/11-data-frames/) (12:45)
 
 *   Teaching: 15 min
     *   Select individual values from a Pandas dataframe.
@@ -242,7 +271,7 @@ I know...
         what would you do if asked to create a table of GDP per capita for Poland
         for the Twentieth Century?
 
-### [Plotting]({{page.root}}/09-plotting/) (11:45)
+### [Plotting]({{page.root}}/12-plotting/) (13:15)
 
 *   Teaching: 15 min
     *   Create a time series plot showing a single data set.
@@ -251,35 +280,6 @@ I know...
     *   Fill in the blanks to plot the minimum GDP per capita over time for European countries.
     *   Modify the example to create a scatter plot of GDP per capita in Asian countries.
     *   Explain what each argument to `plot` does in the following example.
-
-### [Lunch]({{page.root}}/10-lunch/) (12:15): 45 min
-
-### [Lists]({{page.root}}/11-lists/) (13:00)
-
-*   Teaching: 10 min
-    *   Explain why programs need collections of values.
-    *   Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls.
-*   Challenges: 10 min
-    *   Fill in the blanks so that the program produces the output shown.
-    *   How large are the following slices?
-    *   What do negative index expressions print?
-    *   What does a "stride" in a slice do?
-    *   How do slices treat out-of-range bounds?
-    *   What are the differences between sorting these two ways?
-    *   What is the difference between `new = old` and `new = old[:]`?
-
-### [Loops]({{page.root}}/12-for-loops/) (13:20)
-
-*   Teaching: 10 min
-    *   Explain what for loops are normally used for.
-    *   Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration.
-    *   Write for loops that use the Accumulator pattern to aggregate values.
-*   Challenges: 15 min
-    *   Is an indentation error a syntax error or a runtime error?
-    *   Trace which lines of this program are executed in what order.
-    *   Fill in the blanks in this program so that it reverses a string.
-    *   Fill in the blanks in this series of examples to get practice accumulating values.
-    *   Reorder and indent these lins to calculate the cumulative sum of the list values.
 
 ### [Looping Over Data Sets]({{page.root}}/13-looping-data-sets/) (13:45)
 
